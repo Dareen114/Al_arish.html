@@ -1,0 +1,84 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: #f5efe6;
+    text-align: center;
+}
+
+/* الهيرو / اسم المدينة */
+.hero {
+    padding: 60px 20px;
+    background-color: #006c35; /* أخضر قوي للخلفية */
+    color: white;
+}
+
+/* اسم المدينة */
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* أقسام العناوين تحت اسم المدينة */
+.section-links {
+    margin-top: 20px;
+}
+
+.section-links a {
+    color: white; /* الخط أبيض */
+    text-decoration: none;
+    background-color: transparent; /* بدون خلفية إضافية */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 2px solid white; /* إطار أبيض لإبراز الروابط */
+}
+
+.section-links a:hover {
+    background-color: white;
+    color: #006c35; /* يتغير اللون عند المرور */
+}
+
+/* الأقسام */
+.section {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #8b5e3c;
+    margin-bottom: 15px;
+}
+
+/* الصور */
+.section img {
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.section img:hover {
+    transform: scale(1.05);
+}
+
+/* التذييل */
+.footer {
+    background-color: #006c35;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
